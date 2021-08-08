@@ -1,0 +1,37 @@
+/* #dashboard {
+    background-image: url('./dashback.svg');
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment:scroll;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+} */
+
+#dashboard {
+    margin-top: 40px;
+
+}
+#welcome-msg {
+    color: #00FF89;
+    font-family: 'all-round-gothic', 'sans-serif';
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 3.12px;
+    text-align: center;
+}
+
+#total-amt {
+    color: #00FFBA;
+    font-family: 'all-round-gothic', 'sans-serif';
+    font-size: 150px;
+    line-height: 200px;
+    letter-spacing: 7px;
+}
+/* .dash-col {
+    border: 1px solid black;
+}
+.dash-row {
+    border: 1px dotted blue;
+} */

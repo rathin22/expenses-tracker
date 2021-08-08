@@ -1,0 +1,110 @@
+#sign-in-msg {
+    font: normal normal normal 40px/50px 'all-round-gothic';
+    letter-spacing: 4.32px;
+    color: #00FF89;
+    opacity: 1;
+    padding-bottom: 50px;
+}
+#sign-in-form {
+    padding-left: 50px;
+}
+@media only screen and (min-width:1200px) {
+    #sign-in-msg { 
+        padding-bottom: 200px;
+        padding-left: 50px;
+        font: normal normal normal 80px/100px 'all-round-gothic';
+    }
+}
+
+.log-in-input {
+    width:500px;
+    display: block;
+    padding: 6px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 1px solid rgb(145, 144, 144);
+    border-radius: 2px;
+    font-size: 16px;
+  }
+  input:-webkit-autofill::first-line {
+    font-family: 'all-round-gothic';
+    font-size: 16px;
+}
+.login-btn {
+    display: block;
+    margin-top: 30px;
+    border-radius: 63px;
+    width: 400px;
+    height: 57px;
+    background: transparent linear-gradient(90deg, #00FFCC 0%, #06FF6A 100%) 0% 0% no-repeat padding-box;
+    border-color: transparent;
+    font-size: 34px;
+    font-family: 'all-round-gothic';
+    color: white;
+}
+.login-container {
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+}
+
+.login-label {
+    width: 100%;
+    font-family: 'all-round-gothic';
+    font-size: 33px;
+    font-weight: 700;
+}
+.signin {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#errorMsg {
+    color: red;
+    width: 500px;
+}
+
+
+#sign-in {
+    background-image: url('./Background.svg');
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment:scroll;
+    background-size: 1950px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+/* for working responsive css, use html, body instead of #sign-in (at both places), remove position absolute */
+
+@media only screen and (max-width: 1200px){
+    #sign-in-form {
+        margin-bottom: 90px;
+    }
+    #sign-in-msg {
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width:500px) {
+    #sign-in{
+        background-size: 3000px;
+        background-attachment: fixed;
+    }
+}
+@media only screen and (max-width:500px) {
+    #sign-in-msg {
+        margin-top: 50%;
+        padding-left: 0;
+    }
+    .log-in-input {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:600px){
+    #sign-in-form {
+        padding-left: 0;
+    }
+}

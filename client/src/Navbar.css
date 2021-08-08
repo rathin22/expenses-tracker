@@ -1,0 +1,56 @@
+#navbar {
+    width: 100%;
+    height: 90px;
+    border: 1px solid #707070;
+    box-shadow: 0px 10px 6px #00000029;
+    padding-top: 10px;
+}
+
+#log-out{
+    border: 0;
+    font-family: 'all-round-gothic';
+    font-size: 27px;
+    line-height: 33px;
+    letter-spacing: 2.43px;
+    color: #00FFBA;
+    background-color: white;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #00FFBA;
+    font-family: 'all-round-gothic';
+    font-size: 35px;
+    letter-spacing: 3px;
+    line-height: 55px;
+    
+}
+.navbar-link:hover {
+    text-decoration: none;
+    color: #00FFBA;
+    font-weight: 600;
+}
+.navbar-inner-col {
+    margin-top: 5px;
+    
+}
+
+.navbar-button {
+    width: 60px;
+    height: 60px;
+    background: transparent linear-gradient(180deg, #00FFCC 0%, #06FF6A 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 50px;
+    color: white;
+    border: 0;
+    margin-left: 20px;
+}
+
+.navbarcol {
+    height: 75px;
+}
+.fa {
+    margin-left: 10px;
+}
